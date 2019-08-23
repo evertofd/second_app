@@ -20,7 +20,7 @@
         <td><%= student.email %></td>
         <td class="btn btn-success"><%= link_to 'Show', student %></td>
         <td class="btn btn-warning" ><%= link_to 'Edit', edit_student_path(student) %></td>
-        <td class="btn btn-danger"><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="btn btn-danger" style="margin-top: 2px; margin-bottom: 0px;  margin-left: 3px"><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
